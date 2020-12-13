@@ -52,7 +52,7 @@ function draw() {
   hours = date.getHours();
   minutes = date.getMinutes();  
   sec = date.getSeconds();
-  time=hours+"/ "+minutes+"/ "+sec;
+  time=hours+":"+minutes+":"+sec;
   if (eventlistener !== sec) {
     timer = timer - 1
   }
